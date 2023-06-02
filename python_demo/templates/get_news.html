@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .c1 {
+            display: inline-block;
+            height: 100px;
+            width: 300px;
+            border: 1px solid red;
+        }
+
+        .item {
+            float: left;
+            width: 200px;
+            height: 170px;
+            border: 1px solid red;
+        }
+
+        .outer {
+            border: 1px solid red;
+            height: 200px;
+            width: 200px;
+            padding-top: 20px;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+
+        .d1 {
+            height: 300px;
+            width: 500px;
+            border: 1px solid red;
+            margin: 100px;
+            position: relative;
+        }
+
+        .d1 .d2 {
+            height: 59px;
+            width: 59px;
+            background-color: #00FF7F;
+            position: absolute;
+            right: 20px;
+            top: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>详细信息</h1>
+    <span class="c1">中国</span>
+    <span class="c1">联通</span>
+    <div style="display: inline;">哈哈</div>
+    <span style="display: block;">很好</span>
+    <h1>浮动</h1>
+    <div>
+        <span>左边</span>
+        <span style="float:right">右边</span>
+    </div>
+    <div style="background-color: dodgerblue">
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div style="clear: both;"></div>
+    </div>
+    <h1>边距</h1>
+    <div class="outer">
+        <div style="background-color: gold;">听妈妈的话</div>
+        <div>好浮夸的身份的方式</div>
+    </div>
+    <div class="d1">
+        <div class="d2"></div>
+    </div>
+</body>
+
+</html>
